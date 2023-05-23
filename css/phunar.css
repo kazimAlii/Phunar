@@ -1,0 +1,304 @@
+/*----------------------universal classes------------*/
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/*--------------------section one starts here----------------*/
+
+main {
+    padding: 0px 135px;
+    background-color: hsl(215.29deg 100% 96.67%);
+}
+
+.section-one {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.un-order {
+    display: flex;
+    color: rgb(3, 3, 3);
+}
+
+.image {
+    width: 8rem;
+}
+
+span {
+    color: rgb(33 33 114);
+}
+
+.lists {
+    padding: 25.5px 20px 25.9px 21px;
+    font-weight: bold;
+}
+
+/*-------------------section two starts here---------------*/
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-image {
+    background-image: url(../images/girl.jfif);
+    width: 20rem;
+    height: 30rem;
+    margin-top: 95px;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    padding: 17px 31px 17px 31px;
+    border: none;
+    background-color: hsl(211.93deg 78.42% 27.25%);
+    color: white;
+    border-radius: 7px;
+    margin-right: 56px;
+}
+
+.button-two {
+    padding: 17px 31px 17px 31px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+.heading {
+    padding: 0px 0px 75px 0px;
+    font-size: 53px;
+    letter-spacing: 8px;
+}
+
+.paragraph {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    padding-bottom: 45px;
+}
+
+.button-two:hover {
+    background-color: #0f427c;
+    color: white;
+}
+
+.button:hover {
+    background-color: #eef5ff;
+    border: 1px solid #686464;
+    color: black;
+}
+
+.align {
+    text-align: center;
+    padding-top: 2rem;
+    line-height: 2rem;
+    font-family: inherit;
+}
+
+.div-box-one {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.div-box-two {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.para-one {
+    font-size: 14px;
+    word-spacing: 1px;
+}
+
+.pic-one {
+    width: 32px;
+    padding: 0px 1rem 5rem 29px;
+}
+
+.button-load:hover {
+    background-color: #4477af;
+    color: #e5dede;
+    border: 1px solid #4477af;
+}
+
+.head-one {
+    font-size: 18px;
+    padding-bottom: 21px;
+}
+
+.para-box {
+    font-size: 14.8px;
+    line-height: 23px;
+    color: #625858;
+    padding-bottom: 23px;
+}
+
+.learn {
+    color: #3770ad;
+    font-size: 15px;
+}
+
+.box-same {
+    box-shadow: #646464 0px 0px 13px -8px;
+    width: 23rem;
+    height: 11.5rem;
+    border-radius: 3px;
+}
+
+.icon-box {
+    color: #7575d7;
+}
+
+.button-load {
+    background-color: white;
+    border: 1px solid #5849ad;
+    padding: 13px 40px 10px 40px;
+    border-radius: 4px;
+    color: #303072;
+}
+
+.icon-load {
+    padding-left: 7px;
+}
+
+.div-picture {
+    display: inline-block;
+}
+
+.div-text {
+    display: inline-block;
+    padding-top: 1.5rem;
+}
+
+.div-middle {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.div-pic-client {
+    background-image: url(../images/girlss.avif);
+    width: 24rem;
+    height: 21rem;
+    background-position: center;
+    border-radius: 13px;
+}
+
+.head-client {
+    padding: 6rem 0px 6rem 0rem;
+}
+
+.cat {
+    width: 10rem;
+}
+
+/*---------------section boxes starts here------------*/
+
+.section-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading-phu {
+    padding: 1rem 0px 2rem 0rem;
+}
+
+.para-phu {
+    font-size: 15px;
+    color: #786b6b;
+    line-height: 22px;
+    word-spacing: 2px;
+    letter-spacing: 0.2px;
+    padding-bottom: 1rem;
+}
+
+.ui-ux {
+    padding-top: 2.5rem;
+    color: #7a7373;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.div-align {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.get-in {
+    font-size: 32px;
+    padding-top: 6rem;
+}
+
+/*-------------media querry starts here----------------*/
+
+@media (max-width: 760px) {
+    .section-one {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .image {
+        width: 11rem;
+    }
+
+    .section-two {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .div-box-one {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .div-box-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-one {
+        margin-bottom: 2rem;
+    }
+
+    .box-three {
+        margin-bottom: 2rem;
+    }
+
+    .section-boxes {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    .div-text-client {
+        margin-bottom: 3rem;
+    }
+}
+
+/*-----------------media querry ends here---------------*/
